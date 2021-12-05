@@ -34,12 +34,12 @@
   * *Uses BeautifulSoup and requests to get webpage content for artist web pages from KProfile site.*
 * get_album_title_content()
   * *Gets albums titles for all Kpop artists from Kprofile webpage content.*
-* get_album_titles()*
+* get_album_titles()
   * *Creates a list of album titles for the Kpop artist (from the webscraping).*
 * get_release_dates_content()
   * *Uses regex and unicodedata to get release dates from artist discograhy page (removes 'release date' and only returns date)*
 * get_loona_release_dates_content()
-  * *Reduces album release dates to a single release dates since Loona has two release dates for two albums (digital and physical releases).*
+  * *Specific to Loona artist page. It reduces album release dates to a single release dates since Loona has more than one release dates for some of their albums (digital and physical releases).*
 * clean_release_dates()
   * *Uses regex to clean release date formatting, removing letters from dates (e.g. 2nd, 1st, 3rd, 24th).*
 * format_release_dates()
@@ -50,8 +50,6 @@
   * *Uses BeautifulSoup to get a list of album tracks for each album for web pages with ordered list formatting and consistent ptags.*
 * get_album_tracks_if_####()*
   * *Uses BeautifulSoup and regex to get a list of album tracks for artist pages that have unqiue formatting issues.*
-* clean_release_dates()
-  * *Uses regex to clean release date formatting, removing letters from dates (e.g. 2nd, 1st, 3rd, 24th).*
 * get_album_tracks():
   * *Returns a list of album tracks for each kpop artist by applying the other album track functions.*
 * make_discography()
