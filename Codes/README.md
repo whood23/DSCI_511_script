@@ -24,3 +24,9 @@
 *Description: This code scrapes the Anime Filler List website (https://www.animefillerlist.com/) using BeautifulSoup to make a table. The table documents the amount of filler and canon episodes for each series.*
 
 #### Functions Used
+extend_dataframe: Used to add the correct columns to the original dataframe
+data_shaper: used to append the web scraped data to the original dataframe.
+show_filter: used to filter through the different attributes on the webpage.
+duplicate_removal: used to remove duplicate episodes from the filler and mixed episode counts.
+storage_checker: This is used to back the logic in data_shaper function. It ensures no episodes were counted twice in the storages and adds N/A to any storage with no entries.
+show_####_filter: used to sort through attributes in the webpages
