@@ -24,9 +24,20 @@
 *Description: This code scrapes the Anime Filler List website (https://www.animefillerlist.com/) using BeautifulSoup to make a table. The table documents the amount of filler and canon episodes for each series.*
 
 #### Functions Used
-extend_dataframe: Used to add the correct columns to the original dataframe
-data_shaper: used to append the web scraped data to the original dataframe.
-show_filter: used to filter through the different attributes on the webpage.
-duplicate_removal: used to remove duplicate episodes from the filler and mixed episode counts.
-storage_checker: This is used to back the logic in data_shaper function. It ensures no episodes were counted twice in the storages and adds N/A to any storage with no entries.
-show_####_filter: used to sort through attributes in the webpages
+
+* extend_dataframe()
+  * *Used to add the correct columns to the original dataframe.*
+* data_shaper()
+  * *Used to append the web scraped data to the original dataframe.*
+* show_filter()
+  * Used to filter through the different attributes on the webpage.
+* duplicate_removal()
+  * *Used to remove duplicate episodes from the filler and mixed episode counts.*
+* storage_checker()
+  * *This is used to back the logic in data_shaper function. It ensures no episodes were counted twice in the storages and adds N/A to any storage with no entries.*
+* show_####_filter()
+  * *Used to sort through attributes in the webpages.*
+
+#### Notes
+
+*The second cell is used to run the initial portions for the code. In this cell requests beautiful soup and pandas are used to scrape the episode names and information links from the page and create a dataframe housing all the info. All of the functions used for the second portion of the script are found in cell 3, and execution of the second portion of the script is preformed in cell 4. final_anime_df will contain the final dataframe for further work. It take the initial dataframe created in cell 2 of the jupyter notebook as an input. For more information on functions check out the wiki pages for beautifulsoup4, requests, regex for python, and pandas.*
