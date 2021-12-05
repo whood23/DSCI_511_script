@@ -1,4 +1,4 @@
-# DSCI 511 Project: Building Anime and K-Pop Datasets with Web Scraping and Writing A Kaggle File Downloader 
+# DSCI 511 Project: Building Anime and K-Pop Datasets with Web Scraping and Writing A Kaggle File Downloader
 
 ## About the Code Files
 
@@ -11,22 +11,29 @@
 **anime_list:** This code scrapes the Anime Filler List website (https://www.animefillerlist.com/) using BeautifulSoup to make a table. The table documents the amount of filler and canon episodes for each series.<br>
 
 ## Applications for Code Files
+
 **Kaggle File Downloader** <br>
-Use to download specifc files from Kaggle without accessing the website (aside from using it to locate the file you want). Good for team collaborations on projects using Kaggle data since team members can run this script to download the file. As written, the script will download a K-Pop CSV. 
+Use to download specifc files from Kaggle without accessing the website (aside from using it to locate the file you want). Good for team collaborations on projects using Kaggle data since team members can run this script to download the file. As written, the script will download a K-Pop CSV.
 
 **K-Pop data** <br>
 Use to find new songs or albums by K-Pop artists (or groups) they may not be aware of. K-Pop fans could also filter and sort to compare the amount of songs and albums produced by that group. Data is formatted as a dictionary.
 
 **Anime data**<br>
-Users can use this data to find new shows to fit their viewing needs and availability. For example, if someone has limited free time for watching anime and is looking for a show that is not a large viewing committment (i.e., low episode count), he/she could use this data to find a series with a lower episode count. Users could also look at anime with longer episode counts to see if it has a high filler episode account, which would reduce the time committment (since the viewer could skip the filler episodes).
+Users can use this data to find new shows to fit their viewing needs and availability. For example, if someone has limited free time for watching anime and is looking for a show that is not a large viewing committment (i.e., low episode count), he/she could use this data to find a series with a lower episode count. Users could also look at anime with longer episode counts to see if it has a high filler episode count, which would reduce the time committment (since the viewer could skip the filler episodes).
 
 ## Getting Started
+
 **Required Python Packages** <br>
 PIP install the following to your python evironment to use our files.
 
 - requests
 - from bs4 import BeautifulSoup
 - re (regular expressions)
+- Pandas
+- Pathlib*
+- Kaggle*
+
+*(kaggle_file_downloader will install)
 
 **kaggle_file_downloader**<br>
 Complete the following to run this script.
@@ -39,8 +46,9 @@ Complete the following to run this script.
 To run the K-Pop script, you need to download the K-Pop CSV file using the Kaggle File Downloader script because it uses this file to build the artist list for the K-Profile website scraping.
 
 **anime_list** <br>
-No other requirements to run. 
+No other requirements to run.
 
 ## Project Contributors
-- Willie Hood & Jamia Mason: Anime data & Kaggle File Downloader 
+
+- Willie Hood & Jamia Mason: Anime data & Kaggle File Downloader
 - Dior Billups & Kelsey Fox: K-Pop data
