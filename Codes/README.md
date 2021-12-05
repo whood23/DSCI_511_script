@@ -63,7 +63,7 @@
 
 #### Notes
 
-*The first cell uses functions to load the CSV file from the Kaggle Download Tool and generate a list of artist names for web scraping the K-Profile website. The second cell contains all the functions that get album content & titles by scraping the K-Profile website with BeautifulSoup. The third cell uses the release date functions to clean and build a list of release dates. The fourth cell gets the album tracks, applying unique functions for specific artists web pages (since not all pages were formatted & coded the same way). The fifth cell defines the function that makes the discorgraphy dictionary for a single artist, which is then used in the sixth cell to make an artist dictionary of all the artsits from the CSV file. Finally, the seventh cell saves this artist dictionary as a JSON file. For more info on functions, see wikis for packages.*
+*The first code cell uses functions to load the CSV file from the Kaggle Download Tool and generate a list of artist names for web scraping the K-Profile website. The second cell contains all the functions that get album content & titles by scraping the K-Profile website with BeautifulSoup. The third cell uses the release date functions to clean and build a list of release dates. The fourth cell gets the album tracks, applying unique functions for specific artists web pages (since not all pages were formatted & coded the same way). The fifth cell defines the function that makes the discorgraphy dictionary for a single artist, which is then used in the sixth cell to make an artist dictionary of all the artsits from the CSV file. Finally, the seventh cell saves this artist dictionary as a JSON file. For more info on functions, see wikis for packages.*
 
 ### **anime_list.ipynb**
 
