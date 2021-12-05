@@ -10,7 +10,7 @@
 <br>
 **anime_list:** This code scrapes the Anime Filler List website (https://www.animefillerlist.com/) using BeautifulSoup to make a table. The table documents the amount of filler and canon episodes for each series.<br>
 
-## Applications
+## Applications for Code Files
 **Kaggle File Downloader** <br>
 Use to download specifc files from Kaggle without accessing the website (aside from using it to locate the file you want). Good for team collaborations on projects using Kaggle data since team members can run this script to download the file. As written, the script will download a K-Pop CSV. 
 
