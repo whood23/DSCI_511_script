@@ -2,7 +2,7 @@
 
 ## About the Code Files
 
-**kaggle_file_downloader:**  This code uses Kaggle's API to download specific datasets from Kaggle. As written, it currently downloads a csv of K-Pop data by Kaggle user _daffa shiddiq_. The kpop_artist_dictionary uses the output of this tool.
+**kaggle_file_downloader:**  This code uses Kaggle's API to download specific datasets from Kaggle. As written, it currently downloads a csv of K-Pop data by Kaggle user [_daffa shiddiq_](https://www.kaggle.com/daffashiddiq/kpop-4th-gen-sales). The kpop_artist_dictionary uses the output of this tool.
 <br>
 <br>
 **kpop_artist_dictionary:** This code scrapes the K-Profile website (https://kprofiles.com/) using BeautifulSoup to get discography information for artists from the KPop csv that's downloaded by the kaggle_file_downloader script. It returns a dictionary of artists, all their albums, and the album track lists and release dates as a JSON file.
