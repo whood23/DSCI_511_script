@@ -1,4 +1,4 @@
-# Function Descriptions
+# **Function Descriptions**
 
 ### **kaggle_file_downloader.ipynb**
 
