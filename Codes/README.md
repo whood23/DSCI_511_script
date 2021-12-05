@@ -19,7 +19,7 @@
 
 *The script will be processed via the kaggle api. For use with other kaggle files simply fill line 53 where it says api.dataset_download_file with the appropiate information. For more details check kaggle API notes. On line  58 and 59 you can change the name of the file to whatever dataset you are using.*
 
-### **kpop_artist_dictionary**
+### **kpop_artist_dictionary.ipynb**
 
 *Description: This code scrapes the K-Profile website (https://kprofiles.com/) using BeautifulSoup to get discography information for artists from the KPop csv that's downloaded by the kaggle_file_downloader script. It returns a dictionary of artists, all their albums, and the album track lists and release dates as a JSON file.
 
