@@ -35,8 +35,10 @@
   * *Used to remove duplicate episodes from the filler and mixed episode counts.*
 * storage_checker()
   * *This is used to back the logic in data_shaper function. It ensures no episodes were counted twice in the storages and adds N/A to any storage with no entries.*
-* show_####_filter()
+* show_####_filter()*
   * *Used to sort through attributes in the webpages.*
+
+*(The #### in this function are just a placeholder for the various filters, it can represent manga, anime, mixed, or filler. Ex. show_manga_filter)
 
 #### Notes
 
